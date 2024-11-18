@@ -1,0 +1,127 @@
+/* Input container */
+.inputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .inputField {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 200px;
+  }
+  
+  .addButton {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .addButton:hover {
+    background-color: #218838;
+  }
+  
+  /* Table container */
+  .tableContainer {
+    padding: 20px;
+    overflow-x: auto;
+  }
+  
+  /* Responsive table */
+  .responsiveTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  .responsiveTable th,
+  .responsiveTable td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+  }
+  
+  .responsiveTable th {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Buttons */
+  .editButton,
+  .deleteButton {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .editButton {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .editButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .deleteButton {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .deleteButton:hover {
+    background-color: #c82333;
+  }
+  
+  /* Pagination */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .pageButton {
+    padding: 6px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f4f4f4;
+    cursor: pointer;
+  }
+  
+  .pageButton:disabled {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+  }
+  
+  .pageButton:hover:not(:disabled) {
+    background-color: #ddd;
+  }
+/* Dropdown Select Field */
+.selectField {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 220px;
+    margin-right: 10px;
+  }
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
